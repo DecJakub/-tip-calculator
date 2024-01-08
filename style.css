@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./restaurant-449952_1280.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Playfair Display', serif;
+}
+
+.wrapper{
+    width: 600px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px black;
+    border-radius: 6px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    color: white;
+    background-color: rgb(179, 174, 80);
+    text-transform: uppercase;
+}
+
+.top p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: overline;
+    color: rgb(0, 0, 0);
+}
+
+.bottom{
+    padding: 40px 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+input, select{
+    margin-bottom: 25px;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.count{
+    display: block;
+    margin: 10px auto;
+    padding: 20px 10px;
+    width: 60%;
+    font-size: 32px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(179, 174, 80);
+    border: none;
+    transition: .3s;
+}
+.count:hover{
+    background-color:rgb(139, 136, 63);
+}
+
+.cost-info{
+    display: none;
+    font-size: 20px;
+}
+
+span{
+    color: rgb(179, 174, 80);
+    text-decoration: wavy;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.error{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
